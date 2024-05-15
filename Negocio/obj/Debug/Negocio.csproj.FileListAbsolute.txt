@@ -1,0 +1,9 @@
+C:\Users\Mauricio\Documents\GitHub_repos\Progra3-Grupo32\Winforms\Negocio\bin\Debug\Negocio.dll
+C:\Users\Mauricio\Documents\GitHub_repos\Progra3-Grupo32\Winforms\Negocio\bin\Debug\Negocio.pdb
+C:\Users\Mauricio\Documents\GitHub_repos\Progra3-Grupo32\Winforms\Negocio\bin\Debug\Dominio.dll
+C:\Users\Mauricio\Documents\GitHub_repos\Progra3-Grupo32\Winforms\Negocio\bin\Debug\Dominio.pdb
+C:\Users\Mauricio\Documents\GitHub_repos\Progra3-Grupo32\Winforms\Negocio\obj\Debug\Negocio.csproj.AssemblyReference.cache
+C:\Users\Mauricio\Documents\GitHub_repos\Progra3-Grupo32\Winforms\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
+C:\Users\Mauricio\Documents\GitHub_repos\Progra3-Grupo32\Winforms\Negocio\obj\Debug\Negocio.csproj.CopyComplete
+C:\Users\Mauricio\Documents\GitHub_repos\Progra3-Grupo32\Winforms\Negocio\obj\Debug\Negocio.dll
+C:\Users\Mauricio\Documents\GitHub_repos\Progra3-Grupo32\Winforms\Negocio\obj\Debug\Negocio.pdb

@@ -1,0 +1,6 @@
+C:\Users\Mauricio\Documents\GitHub_repos\Progra3-Grupo32\Winforms\Dominio\bin\Debug\Dominio.dll
+C:\Users\Mauricio\Documents\GitHub_repos\Progra3-Grupo32\Winforms\Dominio\bin\Debug\Dominio.pdb
+C:\Users\Mauricio\Documents\GitHub_repos\Progra3-Grupo32\Winforms\Dominio\obj\Debug\Dominio.csproj.AssemblyReference.cache
+C:\Users\Mauricio\Documents\GitHub_repos\Progra3-Grupo32\Winforms\Dominio\obj\Debug\Dominio.csproj.CoreCompileInputs.cache
+C:\Users\Mauricio\Documents\GitHub_repos\Progra3-Grupo32\Winforms\Dominio\obj\Debug\Dominio.dll
+C:\Users\Mauricio\Documents\GitHub_repos\Progra3-Grupo32\Winforms\Dominio\obj\Debug\Dominio.pdb
