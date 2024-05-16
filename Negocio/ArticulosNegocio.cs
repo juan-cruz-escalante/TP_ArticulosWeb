@@ -347,7 +347,55 @@ namespace Negocio
                 throw ex;
             }
         }
+        public List<Articulos> listarConSP()
+        {
+            List<Articulos> lista = new List<Articulos>();
+            AccesoDatos datos = new AccesoDatos();
+            try
+            {
+                string consulta = "SELECT A.Id ID,A.Codigo, A.Nombre, A.Descripcion, M.Descripcion Marca, C.Descripcion Categoria, A.Precio, I.ImagenUrl Imagen, A.IdCategoria, A.IdMarca from ARTICULOS A, MARCAS M, CATEGORIAS C, IMAGENES I WHERE A.IdMarca = M.Id AND A.IdCategoria = C.Id AND A.Id = I.IdArticulo";
+                datos.setearConsulta(consulta);
+                datos.ejecutarLectura();
 
+                while (datos.Lector.Read())
+                {
+                    Articulos aux = new Articulos();
+                    aux.IdArticulo = (int)datos.Lector["ID"];
+
+                    if (!(datos.Lector["Codigo"] is DBNull))
+                        aux.Codigo = (string)datos.Lector["Codigo"];
+
+                    if (!(datos.Lector["Nombre"] is DBNull))
+                        aux.Nombre = (string)datos.Lector["Nombre"];
+
+                    if (!(datos.Lector["Descripcion"] is DBNull))
+                        aux.Descripcion = (string)datos.Lector["Descripcion"];
+
+                    aux.IdMarca = (int)datos.Lector["IdMarca"];
+                    aux.Marcas = new Marcas();
+                    if (!(datos.Lector["Marca"] is DBNull))
+                        aux.Marcas.DescripcionMarca = (string)datos.Lector["Marca"];
+
+                    aux.IdCategoria = (int)datos.Lector["IdCategoria"];
+                    aux.Categoria = new Categoria();
+                    if (!(datos.Lector["Categoria"] is DBNull))
+                        aux.Categoria.DescripcionCategoria = (string)datos.Lector["Categoria"];
+
+                    aux.imagenes = new Imagenes();
+                    aux.imagenes.ImagenUrl = (string)datos.Lector["Imagen"];
+
+                    if (!(datos.Lector["Precio"] is DBNull))
+                        aux.Precio = (float)(decimal)datos.Lector["Precio"];
+
+                    lista.Add(aux);
+                }
+                return lista;
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
         public void modificar(Articulos articulo)
         {
             AccesoDatos datos = new AccesoDatos();
