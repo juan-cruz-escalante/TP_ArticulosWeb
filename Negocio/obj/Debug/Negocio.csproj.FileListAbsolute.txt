@@ -31,6 +31,6 @@ C:\Users\escal\Desktop\Tp_Web - Back\Negocio\bin\Debug\Dominio.dll
 C:\Users\escal\Desktop\Tp_Web - Back\Negocio\bin\Debug\Dominio.pdb
 C:\Users\escal\Desktop\Tp_Web - Back\Negocio\obj\Debug\Negocio.csproj.AssemblyReference.cache
 C:\Users\escal\Desktop\Tp_Web - Back\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
-C:\Users\escal\Desktop\Tp_Web - Back\Negocio\obj\Debug\Negocio.csproj.CopyComplete
 C:\Users\escal\Desktop\Tp_Web - Back\Negocio\obj\Debug\Negocio.dll
 C:\Users\escal\Desktop\Tp_Web - Back\Negocio\obj\Debug\Negocio.pdb
+C:\Users\escal\Desktop\Tp_Web - Back\Negocio\obj\Debug\Negocio.csproj.Up2Date
