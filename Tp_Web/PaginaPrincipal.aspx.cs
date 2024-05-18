@@ -6,6 +6,7 @@ using System.Web.UI;
 using System.Web.UI.WebControls;
 using Negocio;
 using Dominio;
+using System.Collections;
 
 namespace Tp_Web
 {
@@ -16,7 +17,9 @@ namespace Tp_Web
         {
             ArticulosNegocio negocio = new ArticulosNegocio();
             listaArticulos = negocio.listarConSP();
-            
+
+            Session.Add("listadoArticulos", listaArticulos);
+
         }
     }
 }
