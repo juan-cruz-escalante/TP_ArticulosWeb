@@ -4,34 +4,42 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
+    <%-- 
    <h1>Detalle</h1>
     <asp:Label Text="lala" ID="lblCodigo" runat="server" />
     <asp:Label Text="lala" ID="lblNombre" runat="server" />
     <asp:Label Text="lala" ID="lblDescripcion" runat="server" />
     <asp:Label Text="lala" ID="lblPrecio" runat="server" /> 
+    --%>
 
-    <%-- 
-    <div class="card" style="width: 18rem;">
-        <img class="card-img-top" src="..." alt="Card image cap">
-        <div class="card-body">
-            <h5 class="card-title">
-                <asp:Label Text="No anda" ID="lblNombre" runat="server" />
-            </h5>
-            <p class="card-text">
-                <asp:Label Text="lala" ID="lblDescripcion" runat="server" />
-            </p>
+    <div class="container d-flex justify-content-center align-items-center" style="height: 100vh;">
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="lblUrl" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">
+                    <asp:Label Text="No anda" ID="lblNombre" runat="server" />
+                </h5>
+                <p class="card-text">
+                    <asp:Label Text="lala" ID="lblDescripcion" runat="server" />
+                </p>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                    <asp:Label Text="lala" ID="lblCodigo" runat="server" />
+                </li>
+                <li class="list-group-item">
+                    <asp:Label Text="No funca" ID="lblMarcas" runat="server" />
+                </li>
+                <li class="list-group-item">
+                    <asp:Label Text="No funca" ID="lblCategoria" runat="server" />
+                </li>
+                <li class="list-group-item">
+                    <asp:Label Text="No anda el precio" ID="lblPrecio" runat="server" />
+                </li>
+            </ul>
         </div>
-        <ul class="list-group list-group-flush">
-            <li class="list-group-item">
-                <asp:Label Text="lala" ID="lblCodigo" runat="server" />
-            </li>
-            <li class="list-group-item">
-                <asp:Label Text="lala" ID="lblPrecio" runat="server" />
-            </li>
-        </ul>
     </div>
-            --%>
-    <div class="btn">
+    <div class="container text-center mt-3">
         <a href="PaginaPrincipal.aspx" class="btn btn-primary">Volver</a>
     </div>
 

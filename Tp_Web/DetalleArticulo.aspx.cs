@@ -17,10 +17,12 @@ namespace Tp_Web
             List<Articulos> listado = (List<Articulos>)Session["listadoArticulos"]; 
             Articulos seleccionado = listado.Find(x => x.IdArticulo == ID);
 
-            lblCodigo.Text = seleccionado.Codigo;
+            lblCodigo.Text = "Codigo: " + seleccionado.Codigo;
             lblNombre.Text = seleccionado.Nombre;
-            lblDescripcion.Text = seleccionado.Descripcion;
-            //lblPrecio.Text = decimal.Parse(seleccionado.Precio).ToString();
+            lblDescripcion.Text = "Descripción: " + seleccionado.Descripcion;
+            lblMarcas.Text = "Marca: " + seleccionado.Marcas.DescripcionMarca;
+            lblCategoria.Text = "Categoría: " + seleccionado.Categoria.DescripcionCategoria;
+            lblPrecio.Text = "Precio: $" + seleccionado.Precio;
 
         }
     }

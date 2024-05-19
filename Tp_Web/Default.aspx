@@ -30,6 +30,8 @@
                         <p>Mauricio Almada</p>
                         <p>Santiago Garcia</p>
                         <p>Juan Cruz Escalante</p>
+                        <br />
+                        <br />
                         <a href="PaginaPrincipal.aspx" class="btn btn-primary">Ingresar</a>
                     </div>
                 </div>
