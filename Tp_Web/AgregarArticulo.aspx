@@ -40,8 +40,7 @@
         </div>
     </div>  
         <div class="mb-3">
-            <%--<asp:Button ID="btnAgregar" runat="server" OnClick="btnAgregar_Click" Text="Agregar"/>--%>
-            <a href="ListadoArticulos.aspx" class="btn btn-primary">Agregar</a>
+            <asp:Button ID="btnAgregar" runat="server" OnClick="btnAgregar_Click" class="btn btn-primary" Text="Agregar"/>
             <a href="ListadoArticulos.aspx" class="btn btn-primary">Cancelar</a>
         </div>
 </asp:Content>

@@ -40,7 +40,6 @@
  
                 <a href="PaginaPrincipal.aspx" class="btn btn-primary">Volver</a>
                 <br />
-                <br />
                 <a href="CarritoDeCompras.aspx" class="btn btn-primary">Agregar al Carrito</a>
         </div>
     </div>

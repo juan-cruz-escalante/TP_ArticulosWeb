@@ -11,17 +11,9 @@ namespace Tp_Web
 {
     public partial class MasterPage : System.Web.UI.MasterPage
     {
-        public List<Articulos> listaArticulos { get; set; }
         protected void Page_Load(object sender, EventArgs e)
         {
-            if (Session["listadoArticulos"] == null)
-            {
-                ArticulosNegocio negocio = new ArticulosNegocio();
-                listaArticulos = negocio.listarConSP();
-                Session.Add("listadoArticulos", listaArticulos);
-            }
-            dgvArticulos.DataSource = Session["listadoArticulos"];
-            dgvArticulos.DataBind();
+
         }
     }
 }
