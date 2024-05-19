@@ -6,7 +6,7 @@
 
     <div class="row row-cols-1 row-cols-md-3 g-4">
         <%
-            foreach(Dominio.Articulos art in listaArticulos)
+            foreach (Dominio.Articulos art in listaArticulos)
             {
         %>
                 <div class="col">
@@ -20,7 +20,10 @@
                             <p class="card-text">Categoria: <%:art.Categoria.DescripcionCategoria%></p>
                             --%>
                             <p class="card-text text-center">Precio: $<%:art.Precio%></p>
-                            <a class="btn btn-primary align-self-center" href="DetalleArticulo.aspx?id= <%:art.IdArticulo%>"> Ver detalle </a>
+                            <div class="d-flex justify-content-center">
+                                <a class="btn btn-primary me-2" href="DetalleArticulo.aspx?id=<%:art.IdArticulo%>">Ver detalle</a>
+                                <a class="btn btn-primary" href="DetalleArticulo.aspx?id=<%:art.IdArticulo%>">Agregar al carrito</a>
+                            </div>
                         </div>
                     </div>
                 </div>

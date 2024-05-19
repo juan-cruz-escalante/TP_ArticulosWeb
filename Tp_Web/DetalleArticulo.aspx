@@ -37,10 +37,8 @@
                     <asp:Label Text="No anda el precio" ID="lblPrecio" runat="server" />
                 </li>
             </ul>
-        </div>
-    </div>
-    <div class="container text-center mt-3">
         <a href="PaginaPrincipal.aspx" class="btn btn-primary">Volver</a>
+        </div>
     </div>
 
 </asp:Content>

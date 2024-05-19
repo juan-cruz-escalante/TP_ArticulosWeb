@@ -23,7 +23,7 @@
             </nav>
 
             <div class="container">
-                <div class="row justify-content-center align-items-center" style="height: 80vh;">
+                <div class="row justify-content-center justify-content-center align-items-center" style="height: 80vh;">
                     <div class="col-md-15 text-center">
                         <h1>Grupo 32</h1><br /><br />
                         <h3>Integrantes</h3>
