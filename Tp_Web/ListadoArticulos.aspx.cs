@@ -5,16 +5,22 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
-using Negocio;
+using Dominio;
 
 namespace Tp_Web
 {
     public partial class ListadoArticulos : System.Web.UI.Page
     {
+        public List<Articulos> listaArticulos { get; set; }
         protected void Page_Load(object sender, EventArgs e)
-        {
+        {   
+            if (Session["listadoArticulos"] == null)
+            {
             ArticulosNegocio negocio = new ArticulosNegocio();
-            dgvArticulos.DataSource = negocio.listarConSP();
+            listaArticulos = negocio.listarConSP();
+            Session.Add("listadoArticulos", listaArticulos);
+            }
+            dgvArticulos.DataSource = Session["listadoArticulos"] ;
             dgvArticulos.DataBind();
         }
     }

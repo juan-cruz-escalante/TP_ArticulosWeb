@@ -22,7 +22,7 @@
                             <p class="card-text text-center">Precio: $<%:art.Precio%></p>
                             <div class="d-flex justify-content-center">
                                 <a class="btn btn-primary me-2" href="DetalleArticulo.aspx?id=<%:art.IdArticulo%>">Ver detalle</a>
-                                <a class="btn btn-primary" href="DetalleArticulo.aspx?id=<%:art.IdArticulo%>">Agregar al carrito</a>
+                                <a class="btn btn-primary" href="CarritoDeCompras.aspx">Agregar al carrito</a>
                             </div>
                         </div>
                     </div>

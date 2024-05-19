@@ -24,7 +24,7 @@
                             <a class="nav-link active" aria-current="page" href="PaginaPrincipal.aspx"">Articulos</a>
                             <a class="nav-link active" aria-current="page" href="ListadoArticulos.aspx"">Listado Articulos</a>
                             <div class="text-end">
-                                <a class="nav-link active" aria-current="page" href="ListadoArticulos.aspx"">Carrito de compras
+                                <a class="nav-link active" aria-current="page" href="CarritoDeCompras.aspx"">Carrito de compras
                                     <img src="https://static.vecteezy.com/system/resources/previews/009/759/668/non_2x/eps10-white-shopping-cart-line-icon-isolated-on-black-background-trolley-outline-symbol-in-a-simple-flat-trendy-modern-style-for-your-website-design-logo-pictogram-and-mobile-application-vector.jpg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
                                 </a>
                             </div>

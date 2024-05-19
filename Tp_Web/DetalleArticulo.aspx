@@ -37,7 +37,11 @@
                     <asp:Label Text="No anda el precio" ID="lblPrecio" runat="server" />
                 </li>
             </ul>
-        <a href="PaginaPrincipal.aspx" class="btn btn-primary">Volver</a>
+ 
+                <a href="PaginaPrincipal.aspx" class="btn btn-primary">Volver</a>
+                <br />
+                <br />
+                <a href="CarritoDeCompras.aspx" class="btn btn-primary">Agregar al Carrito</a>
         </div>
     </div>
 

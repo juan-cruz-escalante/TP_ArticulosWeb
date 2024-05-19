@@ -131,6 +131,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="AgregarArticulo.aspx" />
+    <Content Include="CarritoDeCompras.aspx" />
     <Content Include="Content\bootstrap-grid.css" />
     <Content Include="Content\bootstrap-grid.min.css" />
     <Content Include="Content\bootstrap-grid.rtl.css" />
@@ -161,6 +163,20 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AgregarArticulo.aspx.cs">
+      <DependentUpon>AgregarArticulo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AgregarArticulo.aspx.designer.cs">
+      <DependentUpon>AgregarArticulo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CarritoDeCompras.aspx.cs">
+      <DependentUpon>CarritoDeCompras.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CarritoDeCompras.aspx.designer.cs">
+      <DependentUpon>CarritoDeCompras.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

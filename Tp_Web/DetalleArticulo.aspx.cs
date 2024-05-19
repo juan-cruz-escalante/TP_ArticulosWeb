@@ -23,7 +23,6 @@ namespace Tp_Web
             lblMarcas.Text = "Marca: " + seleccionado.Marcas.DescripcionMarca;
             lblCategoria.Text = "Categoría: " + seleccionado.Categoria.DescripcionCategoria;
             lblPrecio.Text = "Precio: $" + seleccionado.Precio;
-
         }
     }
 }
