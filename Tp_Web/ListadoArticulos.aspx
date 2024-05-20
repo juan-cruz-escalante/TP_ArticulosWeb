@@ -8,7 +8,7 @@
     <br />
     <div class="row">
         <div class="col">
-            <asp:GridView ID="dgvArticulos" runat="server" CssClass="table table-dark table-bordered" AutoGenerateColumns="false">
+            <asp:GridView ID="dgvArticulos" DataKeyNames="IdArticulo" OnSelectedIndexChanged="dgvArticulos_SelectedIndexChanged" runat="server" CssClass="table table-dark table-bordered" AutoGenerateColumns="false">
                 <Columns>
                     <asp:BoundField HeaderText="Codigo" DataField="Codigo" />
                     <asp:BoundField HeaderText="Nombre" DataField="Nombre" />
@@ -16,6 +16,7 @@
                     <asp:BoundField HeaderText="Marca" DataField="Marcas" />
                     <asp:BoundField HeaderText="Marca" DataField="Categoria" />
                     <asp:BoundField HeaderText="Precio" DataField="Precio" DataFormatString="{0:C2}" />
+                    <asp:CommandField ShowSelectButton="true" selectText="Agregar" HeaderText="Agregar al carrito" />
                 </Columns>
                 <HeaderStyle HorizontalAlign="Center" />
                 <RowStyle HorizontalAlign="Center" />

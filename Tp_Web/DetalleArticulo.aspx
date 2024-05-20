@@ -14,7 +14,7 @@
 
     <div class="container d-flex justify-content-center align-items-center" style="height: 100vh;">
         <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="lblUrl" alt="Card image cap">
+<%--            <asp:Image ID="lblUrl" runat="server" CssClass="card-img-top" alt="No anda la imagen" />--%>
             <div class="card-body">
                 <h5 class="card-title">
                     <asp:Label Text="No anda" ID="lblNombre" runat="server" />
@@ -37,10 +37,10 @@
                     <asp:Label Text="No anda el precio" ID="lblPrecio" runat="server" />
                 </li>
             </ul>
- 
-                <a href="PaginaPrincipal.aspx" class="btn btn-primary">Volver</a>
-                <br />
-                <a href="CarritoDeCompras.aspx" class="btn btn-primary">Agregar al Carrito</a>
+
+            <a href="PaginaPrincipal.aspx" class="btn btn-primary">Volver</a>
+            <br />
+            <%--<a href="CarritoDeCompras.aspx" class="btn btn-primary">Agregar al Carrito</a>--%>
         </div>
     </div>
 

@@ -23,5 +23,11 @@ namespace Tp_Web
             dgvArticulos.DataSource = Session["listadoArticulos"] ;
             dgvArticulos.DataBind();
         }
+
+        protected void dgvArticulos_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            var id = dgvArticulos.SelectedDataKey.Value.ToString();
+            Response.Redirect("CarritoDeCompras.aspx?id=" + id);
+        }
     }
 }
