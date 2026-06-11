@@ -148,3 +148,7 @@ C:\Users\escal\Desktop\Tp_Web - Back\Tp_Web\bin\roslyn\System.Xml.ReaderWriter.d
 C:\Users\escal\Desktop\Tp_Web - Back\Tp_Web\bin\roslyn\System.Xml.XmlDocument.dll
 C:\Users\escal\Desktop\Tp_Web - Back\Tp_Web\bin\roslyn\System.Xml.XPath.dll
 C:\Users\escal\Desktop\Tp_Web - Back\Tp_Web\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Mauricio\Documents\GitHub_repos\TP_ArticulosWeb\Tp_Web\obj\Debug\Tp_Web.csproj.AssemblyReference.cache
+C:\Users\Mauricio\Documents\GitHub_repos\TP_ArticulosWeb\Tp_Web\obj\Debug\Tp_Web.csproj.CoreCompileInputs.cache
+C:\Users\Mauricio\Documents\GitHub_repos\TP_ArticulosWeb\Tp_Web\obj\Debug\Tp_Web.dll
+C:\Users\Mauricio\Documents\GitHub_repos\TP_ArticulosWeb\Tp_Web\obj\Debug\Tp_Web.pdb
